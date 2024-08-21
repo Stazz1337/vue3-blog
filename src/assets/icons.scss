@@ -1,0 +1,47 @@
+@font-face {
+  font-family: icons;
+  src: url('@/assets/icons/icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  position: relative;
+  color: inherit;
+  font-family: icons !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.icon-check::before {
+  content: "\e900";
+}
+
+.icon-comments::before {
+  content: "\e901";
+}
+
+.icon-cross-x::before {
+  content: "\e902";
+}
+
+.icon-down::before {
+  content: "\e903";
+}
+
+.icon-plus::before {
+  content: "\e904";
+}
+
+.icon-search::before {
+  content: "\e905";
+}
+
+.icon-time::before {
+  content: "\e906";
+}
